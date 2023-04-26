@@ -8,7 +8,7 @@ c7d3dd*/
   --tertiary: #c7d3dd;
 }
 
-.App {
+:root {
   background-color: var(--main);
 }
 
@@ -17,9 +17,21 @@ h1, h2 {
 }
 
 p, li {
-  color: var(--tertiary)
+  color: var(--tertiary);
+  list-style: none;
 }
 
 .about-me {
-  display: grid;
+  max-width: 750px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-tech > li {
+  float: left;
+  padding: 10px;
 }
