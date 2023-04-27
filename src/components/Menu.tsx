@@ -7,21 +7,21 @@ const Menu = () => {
             <div className="menu">
                 <ul>
                     <li>
-                        <Link to="about-me" smooth={true} duration={500}>
+                        <Link to="about-me" smooth={true} duration={500} isDynamic={true}>
                         About Me
                         </Link></li>
                     <li>
-                        <Link to="projects" smooth={true} duration={500}>
+                        <Link to="projects" smooth={true} duration={500} isDynamic={true}>
                         Projects
                         </Link>
                     </li>
                     <li>
-                        <Link to="experience" smooth={true} duration={500}>
+                        <Link to="experience" smooth={true} duration={500} isDynamic={true}>
                         Experience
                         </Link>
                     </li>
                     <li>
-                        <Link to="links" smooth={true} duration={500}>
+                        <Link to="links" smooth={true} duration={500} isDynamic={true}>
                         Contact
                         </Link>
                     </li>
