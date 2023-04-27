@@ -34,7 +34,7 @@ const Projects = () => {
                         <li>MongoDB</li>
                     </ul>
                 </div> 
-                <div className="microservices">
+                {/* <div className="microservices">
                     <h2>Microservice Architecture</h2>
                     <p>This in class project was built incrementally, eventually creating five different services that resembled a store like application. The Receiver service sent POST requests to the Storage service about any Buy or Sell events where it then stores them in a MySQL database. The Processing service populates the SQLite database with logging information and the Health service checks the health of all the other services. Finally, the Dashboard service is a small React app that shows statistics such as the highest buy price or most recent event. All the services are then deployed via Docker and Docker Compose.</p>
                     <ul className="project-tech">
@@ -45,7 +45,7 @@ const Projects = () => {
                         <li>SQLite</li>
                         <li>Docker</li>
                     </ul>
-                </div>
+                </div> */}
             </section>
         </>
     );
