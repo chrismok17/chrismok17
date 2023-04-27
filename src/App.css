@@ -69,3 +69,8 @@ p, li {
   float: left;
   margin: 20px;
 }
+
+.menu li:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
