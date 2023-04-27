@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
     return (
         <>
-            <section className="projects">
+            <section className="projects" id="projects"> 
                 <h1>Projects</h1>
                 <div className="openlab">
                     <h2>BCIT Nursing's OpenLab Scheduler</h2>

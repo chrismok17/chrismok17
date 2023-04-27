@@ -3,7 +3,7 @@ import React from "react";
 const Links = () => {
     return (
         <>
-            <section className="links">
+            <section className="links" id="links">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/chrismok17/">LinkedIn</a></li>
                     <li><a href="https://github.com/chrismok17">GitHub</a></li>
