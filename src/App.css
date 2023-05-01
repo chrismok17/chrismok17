@@ -41,6 +41,15 @@ p, li {
   line-height: 30px;
 }
 
+a {
+  color: var(--flash-white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-blue);
+}
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(5vh);
@@ -114,16 +123,40 @@ p, li {
   margin: auto;
 }
 
+.project-tech, .experience-list {
+  padding: 0;
+  margin: 0;
+  break-inside: avoid-column;
+}
+
 .project-tech > li {
   float: left;
-  padding: 10px;
+  margin-right: 50px;
 }
 
 .links {
-  height: 40vh;
+  height: 50vh;
   width: 65vw;
   display: grid;
   margin: auto;
+}
+
+.external {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 120px;
+}
+
+.contact-links {
+  padding: 0;
+  margin: 0;
+  break-inside: avoid-column;
+}
+
+.contact-links li {
+  margin-bottom: 20px;
 }
 
 .menu {
@@ -139,5 +172,13 @@ p, li {
 
 .menu li:hover {
   cursor: pointer;
-  font-weight: bold;
+}
+
+#scroll-to-links {
+  color: var(--secondary);
+}
+
+#scroll-to-links:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
 }
