@@ -15,8 +15,8 @@ const About = () => {
                 </div>
                 <div className="skills">
                     <div className="languages">
-                        <h2>Languages & Frameworks:</h2>
-                            <ul>
+                        <h2>Languages/Frameworks:</h2>
+                            <ul className="skills-list">
                                 <li>JavaScript</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <div className="tools">
                         <h2>Tools:</h2>
-                                <ul>
+                                <ul className="skills-list">
                                     <li>Git</li>
                                     <li>Docker</li>
                                     <li>Kubernetes</li>
@@ -39,8 +39,8 @@ const About = () => {
                                 </ul>
                     </div>
                     <div className="software">
-                        <h2>Software & Platforms:</h2>
-                            <ul>
+                        <h2>Software/Platforms:</h2>
+                            <ul className="skills-list">
                                 <li>Linux</li>
                                 <li>Amazon Web Services</li>
                                 <li>Google Cloud</li>
