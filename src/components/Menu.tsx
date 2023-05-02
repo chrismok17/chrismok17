@@ -17,9 +17,11 @@ const Menu = () => {
     }, [prevScrollPos]);
 
     const className = visible ? "menu" : "menu hidden";
+
     const scrollToTop = () => {
-        scroll.scrollToTop(400);
+        scroll.scrollToTop();
     }
+
     return (
         <>
             <div className={className}>
