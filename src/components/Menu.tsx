@@ -1,5 +1,5 @@
 import React, { useState, useEffect }  from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Menu = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -17,26 +17,28 @@ const Menu = () => {
     }, [prevScrollPos]);
 
     const className = visible ? "menu" : "menu hidden";
+    const scrollToTop = () => {
+        scroll.scrollToTop(400);
+    }
     return (
         <>
             <div className={className}>
                 <ul>
                     <li>
-                        <Link to="about-me" smooth={true} duration={250} isDynamic={true}>
-                        About Me
-                        </Link></li>
+                        <a onClick={scrollToTop}>About Me</a>
+                    </li>
                     <li>
-                        <Link to="projects" smooth={true} duration={250} isDynamic={true}>
+                        <Link to="projects" smooth={true} isDynamic={true}>
                         Projects
                         </Link>
                     </li>
                     <li>
-                        <Link to="experience" smooth={true} duration={250} isDynamic={true}>
+                        <Link to="experience" smooth={true} isDynamic={true}>
                         Experience
                         </Link>
                     </li>
                     <li>
-                        <Link to="links" smooth={true} duration={250} isDynamic={true}>
+                        <Link to="links" smooth={true} isDynamic={true}>
                         Contact
                         </Link>
                     </li>

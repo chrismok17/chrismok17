@@ -66,7 +66,7 @@ a:hover {
 
 #about-me, #projects, #experience {
   padding: 25px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .about-me {
@@ -179,7 +179,7 @@ a:hover {
   position: fixed;
   top: 0;
   right: 0;
-  width: 35%;
+  width: 100%;
   background-color: var(--main);
   z-index: 999;
   transition: all 0.3s ease;
