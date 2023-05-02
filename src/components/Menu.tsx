@@ -25,7 +25,7 @@ const Menu = () => {
             <div className={className}>
                 <ul>
                     <li>
-                        <a onClick={scrollToTop}>About Me</a>
+                        <a onClick={scrollToTop} href="/#">About Me</a>
                     </li>
                     <li>
                         <Link to="projects" smooth={true} isDynamic={true}>
