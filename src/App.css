@@ -65,7 +65,8 @@ a:hover {
 }
 
 #about-me, #projects, #experience {
-  padding: 25px
+  padding: 25px;
+  margin-top: 30px;
 }
 
 .about-me {
@@ -173,6 +174,21 @@ a:hover {
 .menu li:hover {
   cursor: pointer;
 }
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35%;
+  background-color: var(--main);
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.menu.hidden {
+  transform: translateY(-100%);
+}
+
 
 #scroll-to-links {
   color: var(--secondary);
