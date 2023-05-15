@@ -5,24 +5,24 @@ import Links from './components/Links';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Menu from './components/Menu';
-import FadeInSection from './components/FadeInSection';
+// import FadeInSection from './components/FadeInSection';
 
 function App() {
   return (
     <div className="App">
       <Menu/>
-      <FadeInSection>
+      {/* <FadeInSection> */}
         <About/>  
-      </FadeInSection>
-      <FadeInSection>
+      {/* </FadeInSection> */}
+      {/* <FadeInSection> */}
         <Projects/>
-      </FadeInSection>
-      <FadeInSection>
+      {/* </FadeInSection> */}
+      {/* <FadeInSection> */}
         <Experience/>
-      </FadeInSection>
-      <FadeInSection>
+      {/* </FadeInSection> */}
+      {/* <FadeInSection> */}
         <Links/>
-      </FadeInSection>
+      {/* </FadeInSection> */}
     </div>
   );
 }
