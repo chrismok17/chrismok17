@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <>
-            <section className="about-me" id="about-me">
+            <div className="about-me" id="about-me">
                 <h1>About Me</h1>
                 <p>Hi! I'm Chris and I am a recent computing graduate from British Columbia Institute of Technology (BCIT) with a passion for web development. My interest in web development started from my very first web development course in the Computer Information Technology program at BCIT. I love building projects from the ground up, solving problems and visually seeing the changes I am implementing.<br/><br/>
 
@@ -11,7 +11,7 @@ const About = () => {
                 
                 I am excited to step into the industry and continue my learning with front-end, back-end and fullstack positions!</p>
                 <div className="profile-photo">
-                    <img src={require("../assets/me.jpg")} alt="Christopher Mok"/>
+                    <img src={require("../assets/images/me.jpg")} alt="Christopher Mok"/>
                 </div>
                 <div className="skills">
                     <div className="languages">
@@ -49,7 +49,7 @@ const About = () => {
                             </ul>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     );
 };

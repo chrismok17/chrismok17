@@ -11,18 +11,18 @@ function App() {
   return (
     <div className="App">
       <Menu/>
-      <FadeInSection>
+      {/* <FadeInSection> */}
         <About/>  
-      </FadeInSection>
-      <FadeInSection>
+      {/* </FadeInSection> */}
+      {/* <FadeInSection> */}
         <Projects/>
-      </FadeInSection>
-      <FadeInSection>
+      {/* </FadeInSection> */}
+      {/* <FadeInSection> */}
         <Experience/>
-      </FadeInSection>
-      <FadeInSection>
+      {/* </FadeInSection> */}
+      {/* <FadeInSection> */}
         <Links/>
-      </FadeInSection>
+      {/* </FadeInSection> */}
     </div>
   );
 }
