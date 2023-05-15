@@ -70,6 +70,10 @@ a:hover {
   margin-top: 50px;
 }
 
+.openlab, .kdrama, .vacation {
+  height: 100vh;
+}
+
 .about-me {
   height: 90vh;
   width: 65vw;
@@ -202,4 +206,14 @@ a:hover {
 
 .image-gallery {
   width: 70%;
+  margin: auto;
+  padding: 50px;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
 }

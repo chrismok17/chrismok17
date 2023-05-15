@@ -5,7 +5,7 @@ import Links from './components/Links';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Menu from './components/Menu';
-import FadeInSection from './components/FadeInSection';
+// import FadeInSection from './components/FadeInSection';
 
 function App() {
   return (
