@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
     return (
         <>
-            <section className="experience" id="experience">
+            <div className="experience" id="experience">
                 <h1>Experience</h1>
                 <div className="ggc">
                     <h2>Website Administrator - Guildford Golf & Country Club</h2>
@@ -28,7 +28,7 @@ const Experience = () => {
                         <li>Prepared and helped run the Owner's Canada Day party for 200 guests.</li>
                     </ul>
                 </div>
-            </section>
+            </div>
         </>
     );
 };
