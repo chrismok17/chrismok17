@@ -141,7 +141,7 @@ a {
 }
 
 .openlab, .kdrama, .vacation {
-  margin: auto;
+  margin-top: 50px;
   width: 90%;
 }
 
@@ -273,7 +273,7 @@ a {
   }
 
   .openlab, .kdrama, .vacation {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
   }
 
@@ -305,7 +305,6 @@ a {
   }
 
   .skills {
-    margin: -35px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -324,6 +323,7 @@ a {
   .tools, .software, .languages {
     height: 100%;
     text-align: left;
+    margin: 0;
   }
 
   .projects {
@@ -333,8 +333,13 @@ a {
     margin: auto;
   }
 
+  .more-projects {
+    margin: 0;
+    padding-top: 50px;
+  }
+
   .experience {
-    height: 100vh;
+    /* height: 100vh; */
     width: 65vw;
     display: grid;
     margin: auto;
@@ -357,11 +362,16 @@ a {
   }
 
   .links {
-    height: 50vh;
+    /* height: 50vh; */
     width: 65vw;
     display: grid;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .links h1 {
+    margin-bottom: 50px;
   }
 
   .external {
@@ -397,7 +407,7 @@ a {
   .image-gallery {
     width: 70%;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
   }
 
   .image-gallery-slide img {
