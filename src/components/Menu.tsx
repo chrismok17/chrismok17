@@ -24,8 +24,21 @@ const Menu = () => {
 
     return (
         <>
-            <div className={className}>
-                <ul>
+            <nav className='navbar sticky-top border-bottom border-bottom-dark' data-bs-theme='dark'>
+                <div className="container-fluid  d-flex justify-content-end">
+                    <a className="navbar-brand" onClick={scrollToTop} href="/#">About Me</a>
+                    <Link className="navbar-brand" to="projects" smooth={true} isDynamic={true}>
+                        Projects
+                    </Link>
+                    <Link className="navbar-brand" to="experience" smooth={true} isDynamic={true}>
+                        Experience
+                    </Link>
+                    <Link className="navbar-brand" to="links" smooth={true} isDynamic={true}>
+                        Contact
+                    </Link>
+                    <a className="navbar-brand" href={require("../assets/Christopher_Mok_Resume_2023.pdf")} target="_blank" rel="noreferrer">Resume</a>
+                </div>
+                {/* <ul>
                     <li>
                         <a onClick={scrollToTop} href="/#">About Me</a>
                     </li>
@@ -45,8 +58,8 @@ const Menu = () => {
                         </Link>
                     </li>
                     <li><a href={require("../assets/Christopher_Mok_Resume_2023.pdf")} target="_blank" rel="noreferrer">Resume</a></li>
-                </ul>
-            </div>
+                </ul> */}
+            </nav>
         </>
     );
 };

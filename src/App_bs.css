@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Quicksand&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+/* Styles for root/mobile */
+:root {
+  --main: #1d1e1e;
+  --secondary: #77b6ea;
+  --tertiary: #c7d3dd;
+  --dark-blue: #3051BD;
+  --flash-white: #eff2f1;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.App {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--main);
+}
+
+.navbar {
+    background-color: var(--main);
+}
+
+.img-fluid {
+    max-width: 275px;
+    max-height: 425px;
+    border-radius: 5px;
+}
