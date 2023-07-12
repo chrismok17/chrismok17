@@ -8,7 +8,7 @@ const Menu = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-        const currentScrollPos = window.pageYOffset;
+        const currentScrollPos = window.scrollY;
         const visible = prevScrollPos > currentScrollPos || currentScrollPos < 10;
         setVisible(visible);
         setPrevScrollPos(currentScrollPos);
