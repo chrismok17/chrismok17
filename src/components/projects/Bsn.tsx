@@ -8,7 +8,7 @@ const Bsn = () => {
                 <CarouselItem>
                     <img className="d-block w-100" src={require('../../assets/images/bsn_login.jpg')} alt="Add Announcements"/>
                     <Carousel.Caption>
-                        <h5>Login Page</h5>
+                        <p>Login Page</p>
                     </Carousel.Caption>
                 </CarouselItem>
                 
@@ -41,7 +41,7 @@ const Bsn = () => {
                 </CarouselItem>
 
                 <CarouselItem>
-                    <img className="d-block w-100" src={require('../../assets/images/bsn_detail.jpg')} alt="Add Announcements"/>
+                    <img className="d-block w-100 img-fluid" src={require('../../assets/images/bsn_detail.jpg')} alt="Add Announcements"/>
                     <Carousel.Caption>
                         <h5>Day Details</h5>
                     </Carousel.Caption>

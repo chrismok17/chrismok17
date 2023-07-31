@@ -1,23 +1,21 @@
-import React, { useState, useEffect }  from "react";
+import React  from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 const Menu = () => {
-    const [prevScrollPos, setPrevScrollPos] = useState(0);
-    const [visible, setVisible] = useState(true);
+    // const [prevScrollPos, setPrevScrollPos] = useState(0);
+    // const [visible, setVisible] = useState(true);
 
-    useEffect(() => {
-        const handleScroll = () => {
-        const currentScrollPos = window.scrollY;
-        const visible = prevScrollPos > currentScrollPos || currentScrollPos < 10;
-        setVisible(visible);
-        setPrevScrollPos(currentScrollPos);
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, [prevScrollPos]);
-
-    const className = visible ? "menu" : "menu hidden";
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //     const currentScrollPos = window.scrollY;
+    //     const visible = prevScrollPos > currentScrollPos || currentScrollPos < 10;
+    //     setVisible(visible);
+    //     setPrevScrollPos(currentScrollPos);
+    //     };
+    //     window.addEventListener("scroll", handleScroll);
+    //     return () => window.removeEventListener("scroll", handleScroll);
+    // }, [prevScrollPos]);
 
     const scrollToTop = () => {
         scroll.scrollToTop();
@@ -25,7 +23,7 @@ const Menu = () => {
 
     return (
         <>
-            <Navbar sticky="top" expand="sm" variant="dark" className="border-bottom border-bottom-dark w-100">
+            <Navbar sticky="top" expand="sm" variant="dark" className="navbar w-100">
                 <Container fluid className="justify-content-end">
                 <Navbar.Toggle aria-controls="navbar-nav" />
                     <Navbar.Collapse id="navbar-nav">

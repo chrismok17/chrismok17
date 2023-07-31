@@ -1,23 +1,23 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import { Card, Container, Row, Col } from "react-bootstrap";
-import ImageGallery from "react-image-gallery";
+// import ImageGallery from "react-image-gallery";
 
-import bsn_login from "../assets/images/bsn_login.jpg";
-import bsn_admin_home from "../assets/images/bsn_admin_home.jpg";
-import bsn_add_announcement from "../assets/images/bsn_add_announcement.jpg";
-import bsn_student_home from "../assets/images/bsn_student_home.jpg";
-import bsn_calendar from "../assets/images/bsn_calendar.jpg";
-import bsn_detail from "../assets/images/bsn_detail.jpg";
+// import bsn_login from "../assets/images/bsn_login.jpg";
+// import bsn_admin_home from "../assets/images/bsn_admin_home.jpg";
+// import bsn_add_announcement from "../assets/images/bsn_add_announcement.jpg";
+// import bsn_student_home from "../assets/images/bsn_student_home.jpg";
+// import bsn_calendar from "../assets/images/bsn_calendar.jpg";
+// import bsn_detail from "../assets/images/bsn_detail.jpg";
 
-import kdrama_favourites from "../assets/images/kdrama_favourites.jpg";
-import kdrama_add from "../assets/images/kdrama_add.jpg";
-import kdrama_new from "../assets/images/kdrama_new_fav.jpg";
+// import kdrama_favourites from "../assets/images/kdrama_favourites.jpg";
+// import kdrama_add from "../assets/images/kdrama_add.jpg";
+// import kdrama_new from "../assets/images/kdrama_new_fav.jpg";
 
-import vac_calendar from "../assets/images/Vac_Calendar.jpg";
-import vac_planned from "../assets/images/Vac_Planned.jpg";
-import vac_details from "../assets/images/Vac_Details.jpg";
-import vac_add from "../assets/images/Vac_Add.jpg";
+// import vac_calendar from "../assets/images/Vac_Calendar.jpg";
+// import vac_planned from "../assets/images/Vac_Planned.jpg";
+// import vac_details from "../assets/images/Vac_Details.jpg";
+// import vac_add from "../assets/images/Vac_Add.jpg";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {

@@ -40,7 +40,6 @@ const SkillsSection = () => {
                             <ListGroup.Item>Microsoft Azure</ListGroup.Item>
                             <ListGroup.Item>Google Cloud</ListGroup.Item>
                             <ListGroup.Item>Nginx</ListGroup.Item>
-                            <ListGroup.Item>Apache</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
             </Accordion.Item>

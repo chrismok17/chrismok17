@@ -10,7 +10,9 @@
   --flash-white: #eff2f1;
   font-size: 20px;
   max-width: 100%;
+  background-color: var(--main);
 }
+
 
 .App {
   font-family: 'Quicksand', sans-serif;
@@ -20,6 +22,7 @@
 .navbar {
   background-color: var(--main);
   justify-content: flex-end; /* Align items to the right */
+  border-bottom: 2px solid var(--dark-blue);
 }
 
 .navbar-nav {
@@ -33,12 +36,18 @@
 
 .nav-link:hover {
   cursor: pointer;
+  color: var(--dark-blue) !important;
+}
+
+.card-body {
+  --bs-card-spacer-y: 0;
+  --bs-card-spacer-x: 0;
 }
 
 .img-fluid {
-    max-width: 275px;
-    max-height: 425px;
-    border-radius: 5px;
+  max-width: 275px;
+  max-height: 425px;
+  border-radius: 5px;
 }
 
 .accordion {
@@ -65,6 +74,24 @@
   --bs-list-group-bg: #212529 !important;
 }
 
+.experience-list {
+  padding: 50px
+}
+
 .list-group-item {
   color: var(--tertiary) !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+a.external {
+  color: var(--tertiary);
+  text-decoration: none !important;
+  cursor: pointer; /* Optionally, change the cursor style on hover */
+}
+
+a.external:hover {
+  color: var(--dark-blue);
 }

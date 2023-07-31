@@ -8,14 +8,11 @@ const ProjectCard = () => {
     const textColour = {
         color: "var(--tertiary)"
     };
-    const subColour = {
-        color: 'var(--secondary)'
-    }
     return (
         <>
             <Accordion defaultActiveKey="0" className='mt-4 w-100' >
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>BSN OpenLab Scheduler</Accordion.Header>
+                    <Accordion.Header>BSN OpenLab Scheduler | React / Express / MySQL / Docker</Accordion.Header>
                         <Accordion.Body style={textColour}>
                             A full stack web app for the faculty and students of Nursing to use. Features a faculty view to edit OpenLab schedule and create announcements. Students can view the schedule, receive notifications and view case studies. This project was built from scratch as a part of the Industry Sponsored Student Projects course.
                             <Bsn/>
@@ -23,7 +20,7 @@ const ProjectCard = () => {
                 </Accordion.Item>
             
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>KDrama Watchlist</Accordion.Header>
+                    <Accordion.Header>KDrama Watchlist | React / TypeScript / Netlify</Accordion.Header>
                         <Accordion.Body style={textColour}>
                             A React application to search and add Korean dramas to a watchlist. Queries the Movie Database API and filters the results based on the language. The watchlist takes advantage of state management and local storage to save your list of Korean Dramas.
                             <Kdrama/>
@@ -31,7 +28,7 @@ const ProjectCard = () => {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Vacation Calendar</Accordion.Header>
+                    <Accordion.Header>Vacation Calendar | JavaScript / Express / MongoDB / Heroku</Accordion.Header>
                         <Accordion.Body style={textColour}>
                             This personal project is a full stack web application created for my friends and I to use for an upcoming trip. It allows us to add any planned events to the calendar with details such as name, day, time and notes. All event data is stored within a MongoDB database and I created APIs to add, update or delete them.
                             <Vacation/>
