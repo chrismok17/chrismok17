@@ -39,6 +39,10 @@
   color: var(--dark-blue) !important;
 }
 
+.navbar-toggler {
+  box-shadow: none !important;
+}
+
 .offcanvas {
   background-color: var(--main) !important;
 }
@@ -112,16 +116,13 @@
   --bs-list-group-bg: #212529 !important;
 }
 
-.experience-list {
-  padding: 50px
-}
-
 .list-group-item {
   color: var(--tertiary) !important;
 }
 
 .no-border {
   border: none !important;
+  padding: 15px 15px 15px 0px !important;
 }
 
 a.external {
@@ -136,6 +137,18 @@ a.external:hover {
 
 a.nav-link {
   font-size: 1.2rem !important;
+}
+
+.carousel-caption {
+  background-color: var(--main) !important;
+  opacity: 0.9 !important;
+}
+
+.carousel-caption h5 {
+  color: var(--tertiary) !important;
+  opacity: 1;
+  font-size: 1.3rem !important;
+  font-weight: bold !important;
 }
 
 @media only screen and (min-width: 1200px) {

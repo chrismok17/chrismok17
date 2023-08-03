@@ -10,7 +10,7 @@ const ProjectCard = () => {
     };
     return (
         <>
-            <Accordion defaultActiveKey="0" className='mt-4 w-100' >
+            <Accordion defaultActiveKey="0" className='mt-4 w-100'>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>BSN OpenLab Scheduler | React / Express / MySQL / Docker</Accordion.Header>
                         <Accordion.Body style={textColour}>

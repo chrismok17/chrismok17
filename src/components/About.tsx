@@ -5,7 +5,8 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 
 const About = () => {
     const textColour = {
-        color: "var(--tertiary)"
+        color: "var(--tertiary)",
+        paddingTop: "25px"
     }
     return (
         <Container className="my-5">
