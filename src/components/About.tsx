@@ -23,7 +23,7 @@ const About = () => {
                             </Card.Text>
                         </Card.Body>
                     </Col>
-                    <Col md={4} className="d-flex justify-content-end align-items-center">
+                    <Col md={4} className="profile-photo d-flex justify-content-center align-items-center">
                         <Card.Img className="img-fluid mt-5" src={require("../assets/images/me.jpg")} alt="Christopher Mok" style={{ width: '275px', maxWidth: '100%' }} />
                     </Col>
                     {/* <SkillsSection /> */}
