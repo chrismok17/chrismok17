@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Row, Col, ListGroup, ListGroupItem, Accordion } from 'react-bootstrap';
+import { Container, Card, ListGroup, ListGroupItem, Accordion } from 'react-bootstrap';
 
 const Experience = () => {
     const textColour = {
@@ -8,10 +8,6 @@ const Experience = () => {
 
     const secondaryColour = {
         color: "var(--secondary)"
-    };
-
-    const tertiaryColour = {
-        color: "var(--flash-white)"
     };
 
     return (
