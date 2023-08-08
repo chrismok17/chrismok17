@@ -7,26 +7,15 @@ import Links from './components/Links';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Menu from './components/Menu';
-// import SkillsSection from './components/SkillsSection';
-// import FadeInSection from './components/FadeInSection';
 
 function App() {
   return (
     <div className="App">
       <Menu/>
-      {/* <FadeInSection> */}
-        <About/>  
-        {/* <SkillsSection/> */}
-      {/* </FadeInSection> */}
-      {/* <FadeInSection> */}
-        <Projects/>
-      {/* </FadeInSection> */}
-      {/* <FadeInSection> */}
-        <Experience/>
-      {/* </FadeInSection> */}
-      {/* <FadeInSection> */}
-        <Links/>
-      {/* </FadeInSection> */}
+      <About/>  
+      <Projects/>
+      <Experience/>
+      <Links/>
     </div>
   );
 }

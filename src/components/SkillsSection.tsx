@@ -44,53 +44,6 @@ const SkillsSection = () => {
                     </Accordion.Body>
             </Accordion.Item>
         </Accordion>
-        {/* <div className='card-group mt-5'>
-            <div className="card border-dark mx-2 h-100">
-                <div className="card-body">
-                    <h3 className="card-title">Languages:</h3>
-                    <div className='card-text'>
-                        <ul className='list-group list-group-flush'>
-                            <li className='list-group-item'>JavaScript</li>
-                            <li className='list-group-item'>Node</li>
-                            <li className='list-group-item'>Express</li>
-                            <li className='list-group-item'>React</li>
-                            <li className='list-group-item'>Python</li>
-                            <li className='list-group-item'>SQL</li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-            <div className="card border-dark mx-2 h-100">
-                <div className="card-body">
-                    <h3 className="card-title">Tools:</h3>
-                    <div className='card-text'>
-                        <ul className='list-group list-group-flush'>
-                            <li className="list-group-item">Git</li>
-                            <li className="list-group-item">Docker</li>
-                            <li className="list-group-item">Kubernetes</li>
-                            <li className="list-group-item">Ansible</li>
-                            <li className="list-group-item">Terraform</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className="card border-dark mx-2 h-100">
-                <div className="card-body">
-                    <h3 className="card-title">Software/Platforms:</h3>
-                    <div className='card-text'>
-                        <ul className='list-group list-group-flush'>
-                            <li className='list-group-item'>VSCode</li>
-                            <li className='list-group-item'>Git</li>
-                            <li className='list-group-item'>Linux</li>
-                            <li className='list-group-item'>Amazon Web Services</li>
-                            <li className='list-group-item'>Microsoft Azure</li>
-                            <li className='list-group-item'>Nginx</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> */}
     </>
   );
 };

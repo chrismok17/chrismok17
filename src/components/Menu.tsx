@@ -24,9 +24,9 @@ const Menu = () => {
                     <Navbar.Brand href="/#">Christopher Mok</Navbar.Brand>
                     <Nav className="ms-auto d-none d-md-flex">
                         <Nav.Link onClick={() => {scrollToTop(); handleLinkClick()}} href="/#" className="nav-link">About</Nav.Link>
-                        <Link to="projects" smooth={true} isDynamic={true} className="nav-link">Projects</Link>
-                        <Link to="experience" smooth={true} isDynamic={true} className="nav-link">Experience</Link>
-                        <Link to="links" smooth={true} isDynamic={true} className="nav-link">Contact</Link>
+                        <Link to="projects" smooth='linear' offset={-95} isDynamic={true} className="nav-link">Projects</Link>
+                        <Link to="experience" smooth='linear' offset={-95} isDynamic={true} className="nav-link">Experience</Link>
+                        <Link to="links" smooth='linear' offset={-95} isDynamic={true} className="nav-link">Contact</Link>
                         <Nav.Link href={require("../assets/Christopher_Mok_Resume_2023.pdf")} target="_blank" rel="noreferrer" className="nav-link">Resume</Nav.Link>
                     </Nav>
                     <button

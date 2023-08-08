@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Quicksand&display=swap');
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
-/* Styles for root/mobile */
 :root {
   --main: #1d1e1e;
   --secondary: #77b6ea;
@@ -79,10 +78,14 @@
 }
 
 .accordion {
-  --bs-accordion-bg: #212529 !important;
+  --bs-accordion-bg: #1d1e1e !important;
   --bs-accordion-border-color: var(--main) !important;
-  --bs-accordion-active-bg: var(var(--dark-blue)) !important;
+  --bs-accordion-active-bg: var(--dark-blue) !important;
   --bs-accordion-border-width: 2px !important;
+}
+
+.accordion-button {
+  font-size: 1.3rem !important;
 }
 
 .accordion-button {
@@ -107,11 +110,12 @@
 }
 
 .accordion-item {
-  border: var(--bs-accordion-border-width) solid var(--tertiary) !important;
+  border: var(--bs-accordion-border-width) solid #3f3f3f !important;
+  background-color: #1d1e1e !important;
 }
 
 .list-group {
-  --bs-list-group-bg: #212529 !important;
+  --bs-list-group-bg: #1d1e1e !important;
 }
 
 .list-group-item {
@@ -121,6 +125,7 @@
 .no-border {
   border: none !important;
   padding: 15px 15px 15px 0px !important;
+  background-color: #212529 !important;
 }
 
 a.external {
@@ -163,6 +168,9 @@ a.nav-link {
   width: 100% !important;
 }
 @media only screen and (min-width: 1200px) {
+  body {
+    --bs-body-font-family:  'Quicksand', sans-serif !important;
+  }
   .profile-photo.justify-content-center {
     justify-content: end !important;
   }
@@ -171,6 +179,7 @@ a.nav-link {
 @media only screen and (max-width: 768px) {
   body {
     font-size: 0.9rem !important;
+    --bs-body-font-family:  'Quicksand', sans-serif !important;
   }  
   a.nav-link {
     font-size: 1.5rem !important;
@@ -179,6 +188,7 @@ a.nav-link {
 
 @media only screen and (max-width: 480px) {
   body {
+    --bs-body-font-family:  'Quicksand', sans-serif !important;
     font-size: calc(12px + 0.5vw) !important;
   }
   a.nav-link {
