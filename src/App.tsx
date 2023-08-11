@@ -1,6 +1,5 @@
 import React from 'react';
-// import './App.css';
-import './App_bs.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import About from './components/About';
 import Links from './components/Links';
