@@ -39,6 +39,9 @@ Take a look at some of the projects I've worked on!
 [![MovieTracker](https://img.shields.io/badge/MovieTracker-green?style=for-the-badge
 )](https://github.com/chrismok17/2911-Group-5)
 
+[![Bandom](https://img.shields.io/badge/Bandom-red?style=for-the-badge
+)](https://github.com/chrismok17/bandom)
+
 [![Vacation Calendar](https://img.shields.io/badge/Vacation_Calendar-beige?style=for-the-badge
 )](https://github.com/chrismok17/vacation-calendar-webapp)
 
