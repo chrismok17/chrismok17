@@ -4,6 +4,7 @@ import Kdrama from "./projects/kdrama";
 import Vacation from "./projects/Vacation";
 import Bsn from "./projects/Bsn";
 import MovieTracker from "./projects/MovieTracker";
+import Bandom from "./projects/Bandom";
 
 const ProjectCard = () => {
     const textColour = {
@@ -28,8 +29,21 @@ const ProjectCard = () => {
                             <Bsn/>
                         </Accordion.Body>
                 </Accordion.Item>
-            
+
                 <Accordion.Item eventKey="1">
+                    <Accordion.Header>Bandom (2023) | JavaScript / CSS / GitHub Pages</Accordion.Header>
+                        <Accordion.Body style={textColour}>
+                            <ListGroup style={paddingStyle} variant="flush">
+                                <ListGroupItem>Translated a friend's UI/UX Figma design project into a vanilla JavaScript and CSS application</ListGroupItem>
+                                <ListGroupItem>Designed as a mobile front-end-only web application, Bandom showcases the seamless process of browsing and purchasing music artist merchandise, including clothing items</ListGroupItem>
+                                <ListGroupItem>Developed with vanilla technologies to understand when to utilize frameworks like React or Bootstrap for web development</ListGroupItem>
+                                <ListGroupItem><a className="external" href="https://chrismok17.github.io/bandom/" target="_blank" rel="noreferrer">Visit Site <svg width={20} height={20} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / External_Link"> <path id="Vector" d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg></a></ListGroupItem>
+                            </ListGroup>
+                            <Bandom/>
+                        </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey="2">
                     <Accordion.Header>KDrama Watchlist (2022) | React / TypeScript / Netlify</Accordion.Header>
                         <Accordion.Body style={textColour}>
                             <ListGroup style={paddingStyle} variant="flush">
@@ -43,7 +57,7 @@ const ProjectCard = () => {
                         </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey="2">
+                <Accordion.Item eventKey="3">
                     <Accordion.Header>MovieTracker (2022) | JavaScript / Express / MongoDB / Heroku</Accordion.Header>
                         <Accordion.Body style={textColour}>
                             <ListGroup style={paddingStyle} variant="flush">
@@ -57,7 +71,7 @@ const ProjectCard = () => {
                         </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey="3">
+                <Accordion.Item eventKey="4">
                     <Accordion.Header>Vacation Calendar (2022) | JavaScript / Express / MongoDB / Heroku</Accordion.Header>
                         <Accordion.Body style={textColour}>
                             <ListGroup style={paddingStyle} variant="flush">
