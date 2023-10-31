@@ -25,19 +25,31 @@ const Bandom = () => {
         <>
             <Carousel controls={true} interval={7000} touch={true} fade className="w-100" pause="hover">
                 <CarouselItem className="d-flex justify-content-evenly">
-                    <img style={carouselStyle} className="d-block w-auto" src={require('../../assets/images/bandom_home.jpg')} alt="Home Page" onClick={() => {openImage("Home Page", require('../../assets/images/bandom_home.jpg'))}}/>
-                    <img style={carouselStyle} className="d-block w-auto" src={require('../../assets/images/bandom_catalogue.jpg')} alt="Product Catalogue" onClick={() => {openImage("Product Catalogue", require('../../assets/images/bandom_catalogue.jpg'))}}/>
-                    <img style={carouselStyle} className="d-block w-auto" src={require('../../assets/images/bandom_added_to_cart.jpg')} alt="Added to Cart" onClick={() => {openImage("Added to Cart", require('../../assets/images/bandom_added_to_cart.jpg'))}}/>
+                    <img style={carouselStyle} className="d-block w-auto mx-auto" src={require('../../assets/images/bandom_home.jpg')} alt="Home Page" onClick={() => {openImage("Home Page", require('../../assets/images/bandom_home.jpg'))}}/>
+                </CarouselItem>
+
+                <CarouselItem>
+                    <img style={carouselStyle} className="d-block w-auto mx-auto" src={require('../../assets/images/bandom_catalogue.jpg')} alt="Product Catalogue" onClick={() => {openImage("Product Catalogue", require('../../assets/images/bandom_catalogue.jpg'))}}/>
+                </CarouselItem>
+
+                <CarouselItem>
+                    <img style={carouselStyle} className="d-block w-auto mx-auto" src={require('../../assets/images/bandom_added_to_cart.jpg')} alt="Added to Cart" onClick={() => {openImage("Added to Cart", require('../../assets/images/bandom_added_to_cart.jpg'))}}/>
+                </CarouselItem>
+
+                <CarouselItem>
+                    <img style={carouselStyle} className="d-block w-auto mx-auto" src={require('../../assets/images/bandom_checkout.jpg')} alt="Checkout" onClick={() => {openImage("Checkout", require('../../assets/images/bandom_checkout.jpg'))}}/>
+                </CarouselItem>
+
+                <CarouselItem>
+                    <img style={carouselStyle} className="d-block w-auto mx-auto" src={require('../../assets/images/bandom_confirmation.jpg')} alt="Order Confirmation" onClick={() => {openImage("Order Confirmation", require('../../assets/images/bandom_confirmation.jpg'))}}/>
                 </CarouselItem>
 
                 <CarouselItem className="d-flex justify-content-evenly">
-                    <img style={carouselStyle} className="d-block w-auto" src={require('../../assets/images/bandom_cart.jpg')} alt="Cart" onClick={() => {openImage("Cart", require('../../assets/images/bandom_cart.jpg'))}}/>
-                    <img style={carouselStyle} className="d-block w-auto" src={require('../../assets/images/bandom_checkout.jpg')} alt="Checkout" onClick={() => {openImage("Checkout", require('../../assets/images/bandom_checkout.jpg'))}}/>
-                    <img style={carouselStyle} className="d-block w-auto" src={require('../../assets/images/bandom_confirmation.jpg')} alt="Order Confirmation" onClick={() => {openImage("Order Confirmation", require('../../assets/images/bandom_confirmation.jpg'))}}/>
+                    <img style={carouselStyle} className="d-block w-auto mx-auto" src={require('../../assets/images/bandom_cart.jpg')} alt="Cart" onClick={() => {openImage("Cart", require('../../assets/images/bandom_cart.jpg'))}}/>
                 </CarouselItem>
 
             </Carousel>
-            <ImageModal show={showModal} title={modalTitle} image={modalImage} onHide={closeImageModal} set-width="35%"/>
+            <ImageModal show={showModal} title={modalTitle} image={modalImage} onHide={closeImageModal}/>
         </>
     )
 };
